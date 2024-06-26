@@ -26,7 +26,7 @@ set(JOURNAL_TEST_SOURCES
     src/Inode.cpp
     src/Journal.cpp
     src/FileSystem.cpp
-    src/journal_test.cpp
+    tests/journal_test.cpp
 )
 
 # Add executable for journal test
