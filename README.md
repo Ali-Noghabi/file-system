@@ -240,4 +240,4 @@ The project includes comprehensive unit tests to verify the functionality of `Bl
 ![Unit Test Results](unit-test-result.png)
 ![Test Results](test-results.png)
 
-For detailed explanations of each test case and the expected results, refer to the [Test Explanation](tests/tests-details.md) document.
+For detailed explanations of each test case and the expected results, refer to the [Test Explanation](tests/tests_details.md) document.

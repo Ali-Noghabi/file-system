@@ -26,7 +26,7 @@ set(JOURNAL_TEST_SOURCES
     src/Inode.cpp
     src/Journal.cpp
     src/FileSystem.cpp
-    tests/journal_test.cpp
+    tests/JournalTest.cpp
 )
 
 # Add executable for journal test
@@ -44,7 +44,7 @@ set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
 # Add test executable
-set(TEST_SOURCES tests/unitTest.cpp src/BlockGroup.cpp src/Inode.cpp src/Journal.cpp src/FileSystem.cpp)
+set(TEST_SOURCES tests/UnitTest.cpp src/BlockGroup.cpp src/Inode.cpp src/Journal.cpp src/FileSystem.cpp)
 add_executable(runTests ${TEST_SOURCES})
 target_link_libraries(runTests gtest_main)
 
